@@ -1,0 +1,25 @@
+{
+  "name": "js-utils",
+  "version": "0.0.1",
+  "description": "Some recoded javascripts methods with supplements or add-ons methods",
+  "files": [
+    "./build"
+  ],
+  "main": "build/index.js",
+  "types": "build/types/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "jest"
+  },
+  "author": "IMTR0J4N",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "@jest/globals": "^29.5.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
