@@ -1,16 +1,20 @@
-function toFlat (this: Array<any | Array<any>>): Array<any> {
+export function toFlat (this: Array<any | Array<any>>): Array<any> {
 
-    const arr = this
     const res: Array<any> = [];
+    const length = this.length
 
     let isFlat = true;
 
-    for (const item of arr) {
+    for (const item of this) {
         if (Array.isArray(item)) {
             res.push(...item)
         } else {
             res.push(item)
         }
+    }
+
+    for (let i = 0; i < length; i++) {
+        this.pop()
     }
 
     for (const item of res) {
@@ -21,7 +25,8 @@ function toFlat (this: Array<any | Array<any>>): Array<any> {
     }
 
     if (isFlat) {
-        return res
+        this.push(...res)
+        return this
     } else {
         return res.toFlat()
     }
