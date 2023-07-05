@@ -5,5 +5,5 @@ const assignTest = '';
 
 console.log(toFlat(toFlatTest));
 
-console.log(toFlatTest.toFlat());
-console.log(assignTest)
+console.log();
+console.log(assignTest.assignToString())
