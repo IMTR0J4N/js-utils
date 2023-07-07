@@ -4,7 +4,7 @@
  * @returns {Array}
  */
 
-export function toFlat (arr: Array<any | Array<any>>): Array<any> {
+export const toFlat = (arr: Array<any | Array<any>>): Array<any> => {
     const res = [];
     let isFlat = true;
 

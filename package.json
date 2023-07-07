@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Some recoded javascripts methods with supplements or add-ons methods",
   "files": [
-    "./build"
+    "./test/build"
   ],
   "main": "build/index.js",
   "types": "build/types/index.d.ts",

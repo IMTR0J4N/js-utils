@@ -1,2 +1,2 @@
-import './Array/methods/toFlat.js'
-import './String/methods/assignToString.js'
+import './Array/methods/toFlat.ts'
+import './String/methods/assignTo.ts'

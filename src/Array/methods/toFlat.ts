@@ -1,8 +1,3 @@
-/**
- * Creates a new array containing the elements of the sub-arrays of the array passed as argument
- * @returns {Array}
- */
-
 export function toFlat (this: Array<any | Array<any>>): Array<any> {
 
     const res: Array<any> = [];
