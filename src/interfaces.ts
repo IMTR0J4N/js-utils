@@ -6,3 +6,12 @@ interface Array<T> {
      */
     toFlat(this: Array<any | Array<any>>): Array<any>;
 }
+
+interface Number {
+    /**
+     * Return the number factorial
+     * @param this Number
+     * @returns {Number}
+     */
+    factorial(this: number): number;
+}
